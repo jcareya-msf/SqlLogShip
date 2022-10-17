@@ -1,4 +1,8 @@
-# sqllogship Application
+# SqlLogShip Application
+
+### Forked - Changes
+The **sqllogship** application does not include parsing for Splunk Ingestors - This fork bridges the two products together. 
+
 ### Description: 
 The sqllogship application performs a backup, copy, or restore operation and clean-up tasks for a log shipping configuration on a SQL Server database.
 - MS.Custom: seo-lt-2019
@@ -16,8 +20,7 @@ The sqllogship application performs a backup, copy, or restore operation and cle
 ### sqllogship Application
 The **sqllogship** application performs a backup, copy, or restore operation and associated clean-up tasks for a log shipping configuration. The operation is performed on a specific instance of for a specific database.  
 ​
-### Forked - Changes
-The **sqllogship** application does not include parsing for Splunk Ingestors - This fork bridges the two products together. 
+
   
 For the syntax conventions, see Command Prompt Utility Reference. 
 ## Syntax  
@@ -81,13 +84,4 @@ The backup operation creates the log backup in the backup directory. The **sqllo
   
 > [!NOTE]  
 >  To find out the paths of the backup and copy directories, you can run the **sp_help_log_shipping_secondary_database** stored procedure or view the **log_shipping_secondary** table in **msdb**. The paths of the backup directory and destination directory are in the **backup_source_directory** and **backup_destination_directory** columns, respectively.  
-  
-## See Also  
- [About Log Shipping &#40;SQL Server&#41;](../database-engine/log-shipping/about-log-shipping-sql-server.md)   
- [log_shipping_primary_databases &#40;Transact-SQL&#41;](../relational-databases/system-tables/log-shipping-primary-databases-transact-sql.md)   
- [log_shipping_secondary &#40;Transact-SQL&#41;](../relational-databases/system-tables/log-shipping-secondary-transact-sql.md)   
- [sp_cleanup_log_shipping_history &#40;Transact-SQL&#41;](../relational-databases/system-stored-procedures/sp-cleanup-log-shipping-history-transact-sql.md)   
- [sp_help_log_shipping_primary_database &#40;Transact-SQL&#41;](../relational-databases/system-stored-procedures/sp-help-log-shipping-primary-database-transact-sql.md)   
- [sp_help_log_shipping_secondary_database &#40;Transact-SQL&#41;](../relational-databases/system-stored-procedures/sp-help-log-shipping-secondary-database-transact-sql.md)   
- [sp_start_job &#40;Transact-SQL&#41;](../relational-databases/system-stored-procedures/sp-start-job-transact-sql.md)  
   
