@@ -1,7 +1,7 @@
 # SqlLogShip Application
 
 ### Forked - Changes
-The **sqllogship** application does not include parsing for Splunk Ingestors - This fork bridges the two products together. 
+The **sqllogship** application does not include parsing for Splunk Ingestors - This fork bridges the two products together. See the releases folder.
 
 ### Description: 
 The sqllogship application performs a backup, copy, or restore operation and clean-up tasks for a log shipping configuration on a SQL Server database.
